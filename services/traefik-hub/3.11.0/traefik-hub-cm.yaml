@@ -16,3 +16,12 @@ data:
       repository: "traefik/traefik-hub"
       tag: "v3.11.0"
       registry: ghcr.io
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: traefik-crd-overrides
+  namespace: ${releaseNamespace}
+data:
+  values.yaml: |
+    hub: true
