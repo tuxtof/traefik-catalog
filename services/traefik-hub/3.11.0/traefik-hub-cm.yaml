@@ -16,6 +16,9 @@ data:
       repository: "traefik/traefik-hub"
       tag: "v3.11.0"
       registry: ghcr.io
+
+    additionalArguments:
+      - "--hub.experimental.aigateway"
 ---
 apiVersion: v1
 kind: ConfigMap
