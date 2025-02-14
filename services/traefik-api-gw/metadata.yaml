@@ -1,5 +1,5 @@
-displayName: Traefik Hub AI
-description: Upgrade to Traefik Hub + ai gateway
+displayName: Traefik API Gateway
+description: Upgrade to Traefik API Gateway
 category:
   - Partners
 type: catalog
