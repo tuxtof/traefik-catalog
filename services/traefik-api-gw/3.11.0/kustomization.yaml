@@ -4,3 +4,4 @@ kind: Kustomization
 resources:
   - hub-crds.yaml
   - traefik-hub-cm.yaml
+  - ai-rbac.yaml

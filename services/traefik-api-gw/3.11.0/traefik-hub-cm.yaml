@@ -21,4 +21,4 @@ data:
       - "--api.basePath=/dkp/traefik"
       - "--entrypoints.web.http.redirections.entryPoint.to=:443"
       - "--entrypoints.web.http.redirections.entryPoint.scheme=https"
-
+      - "--hub.experimental.aigateway"
