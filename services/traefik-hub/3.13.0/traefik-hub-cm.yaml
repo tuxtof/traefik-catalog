@@ -14,7 +14,7 @@ data:
     # Replace the traefik image with the traefik-hub one
     image:
       repository: "traefik/traefik-hub"
-      tag: "v3.11.0"
+      tag: "v3.13.0"
       registry: ghcr.io
 
     additionalArguments:
